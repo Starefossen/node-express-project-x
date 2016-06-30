@@ -51,7 +51,7 @@ app.use(xapp({
   name: true,
   version: false,
   license: true,
-});
+}, data));
 ```
 
 ## [MIT Licensed](https://github.com/Starefossen/node-express-project-x/blob/master/LICENSE)
