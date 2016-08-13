@@ -1,9 +1,9 @@
 'use strict';
 
 const express = require('express');
-const app = module.exports = express();
-
 const xapp = require('../');
+
+const app = module.exports = express();
 
 // enabled X-App headers
 app.use(xapp({}, require('./package')));
