@@ -6,7 +6,7 @@ const simpleApp = request(require('./examples/simple'));
 
 describe('examples', () => {
   describe('simple', () => {
-    it('returns cors headers for valid cors origin', done => {
+    it('returns package X-App headers', done => {
       simpleApp.get('/')
         .set('Origin', 'https://foo.com')
         .expect(200)
