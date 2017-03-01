@@ -38,7 +38,7 @@
   },
   "homepage": "https://github.com/Starefossen/node-express-project-x#readme",
   "peerDependencies": {
-    "express": "^4.14.0"
+    "express": "^4.15.0"
   },
   "devDependencies": {
     "codacy-coverage": "^2.0.0",
